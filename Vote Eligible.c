@@ -8,7 +8,7 @@ int main()
 	if(age>=18)
 	{
 	  printf("HEY! You are eligible to vote");
-    }
+        }
 	else if(age>=0 && age<18)
 	{
 		no = 18 - age;
