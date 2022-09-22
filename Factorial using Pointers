@@ -1,0 +1,18 @@
+//WAP to find the factorial of a given number using pointers
+#include<stdio.h>
+int main()
+{
+ int i,n,m;
+ int*p=&n;
+ int*q=&m;
+ printf("Enter a number: ");
+ scanf("%d",&n);
+ m = n;
+ *p = 1;
+ for(i=1;i<=m;i++)
+ {  
+    *p = *p * i;
+ }
+ printf("Factorial of a given number %d is: %d",m,*p);
+ return 0;
+}
