@@ -34,8 +34,8 @@ int main()
       }
 	}
 	else if(n<0)
-	  printf("Please enter an integer value");
+	  printf("Please enter a positive integer value");
 	else
-	  printf("Invalid value");
+	  printf("Invalid input value");
     return 0;
 }
